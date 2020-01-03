@@ -15,6 +15,7 @@
 		CDCE821D23BF25AB00CBE65C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCE821B23BF25AB00CBE65C /* LaunchScreen.storyboard */; };
 		CDCE822823BF25AC00CBE65C /* choiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCE822723BF25AC00CBE65C /* choiceTests.swift */; };
 		CDCE823323BF25AC00CBE65C /* choiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCE823223BF25AC00CBE65C /* choiceUITests.swift */; };
+		CDCE824123BF25D500CBE65C /* ChoiceQues.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCE824023BF25D500CBE65C /* ChoiceQues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CDCE822E23BF25AC00CBE65C /* choiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = choiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCE823223BF25AC00CBE65C /* choiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choiceUITests.swift; sourceTree = "<group>"; };
 		CDCE823423BF25AC00CBE65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCE824023BF25D500CBE65C /* ChoiceQues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceQues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CDCE821923BF25AB00CBE65C /* Assets.xcassets */,
 				CDCE821B23BF25AB00CBE65C /* LaunchScreen.storyboard */,
 				CDCE821E23BF25AB00CBE65C /* Info.plist */,
+				CDCE824023BF25D500CBE65C /* ChoiceQues.swift */,
 			);
 			path = choice;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDCE824123BF25D500CBE65C /* ChoiceQues.swift in Sources */,
 				CDCE821523BF25AA00CBE65C /* ViewController.swift in Sources */,
 				CDCE821123BF25AA00CBE65C /* AppDelegate.swift in Sources */,
 				CDCE821323BF25AA00CBE65C /* SceneDelegate.swift in Sources */,
@@ -444,7 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tw.kffatkalo.choice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tw.kffatkalo.choice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
