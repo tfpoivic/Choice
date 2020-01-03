@@ -84,7 +84,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func choose(_ sender: UIButton) {
-        if let choice = sender.title(for: .normal), choice == choiceQues.answer, count <= 10 {
+        if let choice = sender.title(for: .normal), choice == choiceQues.answer {
             score += 10
             scoreLable.text = String(score)
             sender.setTitleColor(UIColor.green, for: .normal)
