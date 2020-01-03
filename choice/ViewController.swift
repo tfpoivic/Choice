@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var questionLable: UILabel!
     @IBOutlet weak var scoreLable: UILabel!
+    @IBOutlet weak var scoreText: UILabel!
     @IBOutlet weak var resultLable: UILabel!
     @IBOutlet var choiceButton: [UIButton]!
     @IBOutlet weak var nextButton: UIButton!
@@ -113,16 +114,16 @@ class ViewController: UIViewController {
     
     @IBAction func playAgain(_ sender: Any) {
         resultLable.isHidden = true
+        scoreText.isHidden = false
         againButton.setTitle("重新來過", for: .normal)
-        choiceButton.forEach { bt in
-            bt.isEnabled = true
-        }
         count = 0
         score = 0
         scoreLable.text = String(score)
         actionChoiceQueses = choiceQueses
         choiceButton.forEach { bt in
             bt.setTitleColor(UIColor.yellow, for: .normal)
+            
+            bt.isEnabled = true
         }
         setQues()
     }
@@ -144,6 +145,7 @@ class ViewController: UIViewController {
         }
         questionLable.text = ""
         scoreLable.text = ""
+        scoreText.isHidden = true
         var msg = ""
         if score > 80 {
             msg = "你是神！"

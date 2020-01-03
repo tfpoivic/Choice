@@ -110,6 +110,7 @@
                         <outlet property="questionLable" destination="2Rg-69-VTG" id="Qks-N5-e9q"/>
                         <outlet property="resultLable" destination="unR-PD-Uro" id="VTU-rM-TDB"/>
                         <outlet property="scoreLable" destination="WUK-0u-a8e" id="iTm-xz-s5w"/>
+                        <outlet property="scoreText" destination="Maq-w1-kW9" id="zY7-SV-sQN"/>
                         <outletCollection property="choiceButton" destination="hZP-Tc-FYe" collectionClass="NSMutableArray" id="eSy-x0-CwR"/>
                         <outletCollection property="choiceButton" destination="dXg-s3-vcU" collectionClass="NSMutableArray" id="5i3-0I-GmC"/>
                         <outletCollection property="choiceButton" destination="swV-Ye-8X3" collectionClass="NSMutableArray" id="mNp-aH-8KX"/>
